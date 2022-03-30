@@ -1,0 +1,33 @@
+span {
+    background-color: rgba(245, 244, 244, 0.856);
+    color: orange;
+    font-size: 350%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+h1 {
+    color: rgba(107, 106, 106, 0.5);
+    border-bottom: 1px dotted ;
+    font-size: 1em;
+    margin: auto;
+    width: 150px;
+    text-align: center;
+    padding: 7px 0 7px 0;
+}
+
+p {
+    color: rgba(92, 91, 91, 0.801);
+    width: 100px;
+    text-align: center;
+    margin: 10px auto 10px auto;
+}
+
+.row {
+    margin: 20px;
+}
