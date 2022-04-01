@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+    width: 300px;
+    border-bottom: 1px dotted;
+    font-size: 25px !important;
+    padding: 10px;
+    margin: auto;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+.accordion-button::after {
+    display: inline-block;
+    float: right;
+}
+
+.accordion-item {
+    text-align: center;
+}
+
+button.btn-text {
+    display: block;
+    text-align: center;
+}
