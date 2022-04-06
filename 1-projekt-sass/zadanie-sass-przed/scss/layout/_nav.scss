@@ -2,7 +2,7 @@
 /*==========  4.3 - Nav styles  ==========*/
 
 .navbar-default {
-    background-color: $color-bg-main;
+    background-color: $color-background;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -130,7 +130,7 @@
 @media(min-width:768px) {
     
     .navbar-default {
-        background-color: $color-bg-main;
+        background-color: $color-background;
         top: $base-font-size * 2;
         
         .navbar-header .navbar-brand {
@@ -202,9 +202,9 @@
                 font-size: $base-font-size - 3;
                 font-weight: $font-weight-nav;
                 text-transform: uppercase;
-                background-color: $color-bg-main;
+                background-color: $color-background;
                 font-family: $font-primary;
-                padding-top: 16px;
+                padding-top: 8px;
                 padding-bottom: 16px;
                 margin-left: 0;
             }

@@ -140,6 +140,7 @@
 .fa-fw {
   width: 1.28571429em;
   text-align: center;
+  font-size: 25px;
 }
 
 .fa-ul {
@@ -10809,7 +10810,6 @@ header.header-image .header-content .header-content-inner h5 {
   }
   .header-contact ul .fa-twitter, .header-contact ul .fa-facebook, .header-contact ul .fa-linkedin, .header-contact ul .fa-google-plus {
     color: #a5e200;
-    font-size: 25px !important;
   }
   .header-contact ul .fa-twitter:hover, .header-contact ul .fa-facebook:hover, .header-contact ul .fa-linkedin:hover, .header-contact ul .fa-google-plus:hover {
     color: #88ba00;
@@ -10821,7 +10821,7 @@ header.header-image .header-content .header-content-inner h5 {
 /***/
 /*==========  4.3 - Nav styles  ==========*/
 .navbar-default {
-  background-color: #ffffff;
+  background-color: #f0f4dc;
   -webkit-transition: all .35s;
   transition: all .35s;
 }
@@ -10948,7 +10948,7 @@ header.header-image .header-content .header-content-inner h5 {
 
 @media (min-width: 768px) {
   .navbar-default {
-    background-color: #ffffff;
+    background-color: #f0f4dc;
     top: 32px;
   }
   .navbar-default .navbar-header .navbar-brand {
@@ -11009,9 +11009,9 @@ header.header-image .header-content .header-content-inner h5 {
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
-    background-color: #ffffff;
+    background-color: #f0f4dc;
     font-family: "Raleway", sans-serif;
-    padding-top: 16px;
+    padding-top: 8px;
     padding-bottom: 16px;
     margin-left: 0;
   }
@@ -11511,34 +11511,35 @@ header.header-image .header-content .header-content-inner h5 {
   margin-bottom: 0;
 }
 
-.t108-footer .footer-above .btn-outline i {
-  font-size: 25px !important;
-}
-
 .t108-footer .footer-above .footer-col {
   margin-bottom: 72px;
 }
 
-.t108-footer .footer-above .footer-col .contact, .t108-footer .footer-above .footer-col .tweets {
+.t108-footer .footer-above .footer-col .contact,
+.t108-footer .footer-above .footer-col .tweets {
   padding-left: 0;
 }
 
-.t108-footer .footer-above .footer-col .contact p, .t108-footer .footer-above .footer-col .tweets p {
+.t108-footer .footer-above .footer-col .contact p,
+.t108-footer .footer-above .footer-col .tweets p {
   margin: 0;
 }
 
 @media (max-width: 768px) {
-  .t108-footer .footer-above .footer-col .contact .pull-right, .t108-footer .footer-above .footer-col .tweets .pull-right {
+  .t108-footer .footer-above .footer-col .contact .pull-right,
+  .t108-footer .footer-above .footer-col .tweets .pull-right {
     float: left !important;
   }
 }
 
-.t108-footer .footer-above .footer-col .contact a:hover p, .t108-footer .footer-above .footer-col .tweets a:hover p {
+.t108-footer .footer-above .footer-col .contact a:hover p,
+.t108-footer .footer-above .footer-col .tweets a:hover p {
   margin: 0;
   color: #a5e200;
 }
 
-.t108-footer .footer-above .footer-col .contact .fa-twitter, .t108-footer .footer-above .footer-col .tweets .fa-twitter {
+.t108-footer .footer-above .footer-col .contact .fa-twitter,
+.t108-footer .footer-above .footer-col .tweets .fa-twitter {
   color: #a5e200;
 }
 
@@ -11558,7 +11559,12 @@ header.header-image .header-content .header-content-inner h5 {
   border-color: #a5e200;
 }
 
-.t108-footer h1, .t108-footer h2, .t108-footer h3, .t108-footer h4, .t108-footer h5, .t108-footer h6 {
+.t108-footer h1,
+.t108-footer h2,
+.t108-footer h3,
+.t108-footer h4,
+.t108-footer h5,
+.t108-footer h6 {
   color: #979797;
 }
 
@@ -12070,7 +12076,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
   line-height: 40px;
   outline: 0;
   color: #ffffff;
-  background-color: #a5e200;
+  background-color: #979797;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
